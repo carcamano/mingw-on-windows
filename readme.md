@@ -1,4 +1,4 @@
-# How to Install Mngw on Windows to use Libxml2 with Go Lang
+# How to Install Mingw on Windows to use Libxml2 with Go Lang
 
 ## Step 1
 
