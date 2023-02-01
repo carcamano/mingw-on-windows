@@ -24,7 +24,14 @@ C:\msys64\mingw64\bin
 ```
 
 ## Step 4
-Open "MSYS2 UCRT64" and switch to your download directory. Now run the following commands:
+"MSYS2 UCRT64" should be auto open after instal, if you close it, reopen.
+
+Switch to repo download directory, eg:
+```
+cd /c/Users/MyUser/Downloads/mingw-on-windows-master
+```
+
+Now run the following commands:
 ```shell
 $ pacman -S mingw-w64-x86_64-gcc
 $ pacman -S mingw-w64-x86_64-pkg-config
