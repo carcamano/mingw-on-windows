@@ -12,13 +12,23 @@ mingw-w64-x86_64-libxml2-2.9.10-8-any.pkg.tar.zst
 ```
 
 ## Step 2
-Install msys2-x86_64-20230127.exe
+Install:
+```
+msys2-x86_64-20230127.exe
+```
 
 ## Step 3
+Add Mingw dir to path:
+```
+C:\msys64\mingw64\bin
+```
+
+## Step 4
 Open "MSYS2 UCRT64" and switch to your download directory. Now run the following commands:
 ```shell
-$ pacman -U mingw-w64-x86_64-gcc-10.2.0-11-any.pkg.tar.zst
-$ pacman -U mingw-w64-x86_64-go-1.16-1-any.pkg.tar.zst
+$ pacman -S mingw-w64-x86_64-gcc
+$ pacman -S mingw-w64-x86_64-pkg-config
+$ pacman -S mingw-w64-x86_64-go
 $ pacman -U mingw-w64-x86_64-iconv-1.16-2-any.pkg.tar.zst
 $ pacman -U mingw-w64-x86_64-libxml2-2.9.10-8-any.pkg.tar.zst
 ```
