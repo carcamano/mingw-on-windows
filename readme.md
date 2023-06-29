@@ -24,6 +24,8 @@ C:\msys64\mingw64\bin
 ```
 
 ## Step 4
+![image](https://github.com/carcamano/mingw-on-windows/assets/11354012/ee17920e-01b4-485c-a74a-eb068974cf85)
+
 "MSYS2 UCRT64" should be auto open after instal, if you close it, reopen.
 
 Switch to repo download directory, eg:
